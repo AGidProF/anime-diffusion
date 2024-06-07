@@ -8,7 +8,7 @@ async function query(data) {
 	let response = await fetch(
 		"https://api-inference.huggingface.co/models/Ojimi/anime-kawai-diffusion",
 		{
-			headers: { Authorization: "Bearer {API_TOKEN}" },
+			headers: { Authorization: "Bearer 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" },
 			method: "POST",
 			body: JSON.stringify(data),
 		}
